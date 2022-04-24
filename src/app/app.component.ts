@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular2c';
+  title = 'angular';
+  getValues(val:any)
+  {
+    console.log(val);
+  }
 }
